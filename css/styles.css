@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 /*Header*/
 
@@ -137,6 +145,8 @@ h4 {
     justify-content: center;
     margin-bottom: 40px;
 }
+
+
 
 .rounded  {
     margin: 30px 0px;
