@@ -1,0 +1,290 @@
+
+/*Header*/
+
+header {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 5px outset rgb(5, 5, 5);
+    padding: 10px 30px;
+    background-color: rgb(134, 132, 132);
+}
+
+ul li a {
+    text-decoration: none;
+    color:rgb(5, 5, 5)
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+}
+
+
+nav {
+    background-image: url(./../img/imagenes-index/Fondo.jpg);
+}
+
+ul {
+    margin-bottom: 0px
+}
+
+/* Main */
+
+section {
+    background-image: url(./../img/imagenes-index/Fondo3.png);
+    margin: 0px 140px;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    background-image: url(./../img/imagenes-index/Fondo.jpg);
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(46, 42, 42);
+    margin: 0px 20px;
+    font-weight: 500px;
+    display:inline;
+    background-image: url(./../img/imagenes-index/Fondo\ titulo.jpg);
+}
+
+h2 , h3 {
+    font-size: 25px;
+    color: rgb(46, 42, 42);
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(181, 0, 236);
+    display:inline;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    margin: 4px 0;
+    padding: 2%;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: KodeMono;
+    src: url(./../assets/fonts/KodeMono-Bold.ttf)
+}
+
+h1, h2, h3, li {
+font-family: Kodemono, sans-serif
+}
+
+@font-face {
+font-family: Montserrat;
+src: url(./../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
+span {
+    color:rgb(181, 0, 236);
+    font-weight: 700;
+}
+
+section ol li {
+    font-size: 20px;
+    list-style: none;
+}
+
+section ol {
+    border: 2px solid;
+    margin: 20px 200px;
+    border-radius: 30%;
+}
+
+
+
+/*Footer*/
+
+footer {
+    background-image: url(./../img/imagenes-index/Fondo\ bc.png);
+    color: white
+}
+
+h4 { 
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    display:inline-block;
+}
+
+.div__footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #BBBBBB;
+    margin-bottom: 15px;
+}
+
+.div__footer {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 20px;
+}
+
+/*Ordenes*/
+
+.card {
+    background: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.rounded  {
+    margin: 30px 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.card-title {
+    font-size: 30px
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/*Personajes*/
+
+.div__pj {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+}
+
+.img__pj {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    margin: 30px 30px;
+}
+
+/*Region*/
+
+.section__reinos {
+    border: 2px solid aqua;
+    width: 1030px;
+    height: 600px;
+    margin: 20px 0px 0px;
+
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 50px 400px 50px;
+
+    grid-template-areas:
+    "trebol . corazon"
+    ". mapa ."
+    "diamante . pica"
+}
+
+.text__trebol {
+    background-color: red;
+    grid-area: trebol;
+    align-self: end;
+}
+
+.text__corazon {
+    background-color: yellow;
+    grid-area: corazon;
+    align-self: end;
+}
+
+.text__pica {
+    background-color: green;
+    grid-area: pica;
+    align-self: start;
+}
+
+.text__diamante {
+    background-color: blue;
+    grid-area: diamante;
+    align-self: start;
+}
+
+.section__mapa {
+    grid-area: mapa;
+    height: 100%;
+    width: 100%;
+}
+
+.art__region {
+    width: 300px;
+    height: 300px;
+}
+
+.div__region article p {
+    font-size: 18px;
+}
+
+
+.div__region {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+
+/*Magia*/
+
+.img__grimorio {
+    height: 250px;
+    width: 200px;
+    margin: 1% 1%;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.ul__magia {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul__magia li {
+    margin: 15px;;
+}
+
+.section__grimorio {
+    margin: 50px 20px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.img__magia {
+    height: 250px;
+    width: 250px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.section__magia {
+    margin: 40px 30px;
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img__espadas {
+    width: 800px;
+    height: 400px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+/*Hr*/
+
+hr {
+    margin: 20px 10px;
+}
