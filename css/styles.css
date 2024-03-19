@@ -77,7 +77,7 @@ p {
     src: url(./../assets/fonts/KodeMono-Bold.ttf)
 }
 
-h1, h2, h3, li {
+h1, h2, h3, h4 li {
 font-family: Kodemono, sans-serif
 }
 
@@ -176,6 +176,16 @@ h4 {
     border-top-right-radius: 30%;
     border-bottom-left-radius: 30%;
     margin: 30px 30px;
+}
+
+.carr__pj {
+    height: 400px;
+    border-radius: 50%;
+}
+
+.carousel {
+    background-color: black;
+    margin-top: 40px
 }
 
 /*Region*/
