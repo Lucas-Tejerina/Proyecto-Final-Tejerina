@@ -143,8 +143,6 @@ h4 {
     margin-bottom: 40px;
 }
 
-
-
 .rounded  {
     margin: 30px 0px;
     height: 300px;
@@ -185,7 +183,9 @@ h4 {
 
 .carousel {
     background-color: black;
-    margin-top: 40px
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /*Region*/
