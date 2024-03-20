@@ -8,31 +8,7 @@
 
 header {
     text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    border: 5px outset rgb(5, 5, 5);
-    padding: 10px 30px;
-    background-color: rgb(134, 132, 132);
-}
-
-ul li a {
-    text-decoration: none;
-    color:rgb(5, 5, 5)
-}
-
-nav ul li a:hover {
-    background-color: blueviolet;
-}
-
-
-nav {
-    background-image: url(./../img/imagenes-index/Fondo.jpg);
-}
-
-ul {
-    margin-bottom: 0px
+    margin-bottom: 50px;
 }
 
 /* Main */
