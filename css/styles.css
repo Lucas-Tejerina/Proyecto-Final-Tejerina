@@ -250,6 +250,11 @@ h4 {
     margin: 30px 10px;
 }
 
+.row-ord {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Magia*/
 
