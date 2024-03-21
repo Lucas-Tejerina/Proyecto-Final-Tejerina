@@ -317,10 +317,20 @@ footer {
 }
 
 .section__magia {
-    margin: 40px 30px;
-    display:flex;
-    gap: 30px;
-    justify-content: center;
+    border: 2px solid red;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.magia__div {
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid aqua;
+    gap: 20px;
 }
 
 .img__espadas {
