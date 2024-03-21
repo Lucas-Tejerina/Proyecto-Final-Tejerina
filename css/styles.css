@@ -8,7 +8,8 @@
 
 header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    font-size: 20px;
 }
 
 /* Main */
@@ -78,8 +79,6 @@ section ol {
     margin: 20px 200px;
     border-radius: 30%;
 }
-
-
 
 /*Footer*/
 
@@ -217,45 +216,48 @@ footer {
 
 /*Region*/
 
-.section__reinos {
-    border: 2px solid aqua;
-    width: 1030px;
-    height: 600px;
-    margin: 20px 0px 0px;
-
+.grilla {
     display: grid;
-    grid-template-columns: 200px 500px auto;
-    grid-template-rows: 20% 20% 20% 20%;
+    border: 2px solid rgb(117, 116, 116);
+    gap: 10px;
 
-    grid-template-areas:
-    "mapa mapa trebol"
-    "mapa mapa corazon"
-    "mapa mapa diamante"
-    "mapa mapa pica";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
 
+    grid-template-areas: 
+    "trebol . pica"
+    ". mapa ."
+    "diamante . corazon";
 }
 
-.text__trebol {
+.trebol {
     grid-area: trebol;
+    border-bottom: none;
+    font-size: 25px;
 }
 
-.text__corazon {
-    grid-area: corazon;
-}
-
-.text__pica {
-    grid-area: pica;
-}
-
-.text__diamante {
+.diamante {
     grid-area: diamante;
-
+    border-bottom: none;
+    font-size: 25px;
 }
 
-.section__mapa {
+.pica {
+    grid-area: pica;
+    border-bottom: none;
+    font-size: 25px;
+}
+
+.corazon {
+    grid-area: corazon;
+    border-bottom: none;
+    font-size: 25px;
+}
+
+.mapa {
     grid-area: mapa;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 .art__region {
@@ -339,26 +341,6 @@ hr {
         max-width: 500px;
         justify-content: center;
     }
-
-    .section__mapa {
-        width: 280px;
-        height: 100%;
-    }
-
-    .section__reinos {
-        width: auto;
-        height: 600px;
-
-        grid-template-columns: 60% auto auto;
-        grid-template-rows: 50% 10%;
-
-        grid-template-areas: 
-        "mapa mapa mapa"
-        "trebol . ."
-        "diamante . ."
-        "corazon . ."
-        "pica . ."
-    }
 }
 
 @media (min-width: 768px) {
@@ -366,27 +348,6 @@ hr {
         width: auto;
         max-width: 700px;
         justify-content: center;
-    }
-
-    .section__mapa {
-        width: 600px;
-        height: 330px;
-    }
-
-    .section__reinos {
-        width: auto;
-        height: 600px;
-
-        grid-template-columns: 60% auto auto;
-        grid-template-rows: 50% 10%;
-
-        grid-template-areas: 
-        "mapa mapa mapa"
-        "mapa mapa mapa"
-        "trebol . ."
-        "diamante . ."
-        "corazon . ."
-        "pica . ."
     }
 }
 
@@ -400,26 +361,6 @@ hr {
     .div-pj { 
         display: flex;
     }
-
-    .section__mapa {
-        width: 600px;
-        height: 100%;
-        margin-left: 50px;
-    }
-
-    .section__reinos {
-        width: auto;
-        height: 600px;
-
-        grid-template-columns: 20% auto 20%;
-        grid-template-rows: 40%;
-
-        grid-template-areas: 
-        ". mapa ."
-        ". mapa ."
-        "trebol . diamante"
-        "corazon . pica"
-    }
 }
 
 @media (min-width: 1280px) {
@@ -429,23 +370,18 @@ hr {
         justify-content: center;
     }
 
-    .section__mapa {
-        width: 700px;
-        max-width: 100%;
-        height: 100%;
-    }
+}
 
-    .section__reinos {
-        width: auto;
-        height: 600px;
-
-        grid-template-columns: 200px 500px auto;
-        grid-template-rows: 20% 20% 20% 20%;
+@media(max-width: 760px) {
+    .grilla{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.2fr 0.2fr 0.2fr 0.2fr;
     
-        grid-template-areas:
-        "mapa mapa trebol"
-        "mapa mapa corazon"
-        "mapa mapa diamante"
-        "mapa mapa pica";
+        grid-template-areas: 
+        "mapa"
+        "trebol"
+        "diamante"
+        "pica"
+        "corazon";
     }
 }
