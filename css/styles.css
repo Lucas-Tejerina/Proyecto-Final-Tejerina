@@ -84,30 +84,78 @@ section ol {
 /*Footer*/
 
 footer {
-    background-image: url(./../img/imagenes-index/Fondo\ bc.png);
-    color: white
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-h4 { 
-    font-size: 20px;
-    color: white;
-    margin-bottom: 10px;
-    font-weight: 500;
-    border-bottom: 2px solid #00c3ff;
-    display:inline-block;
+.logo {
+    height: 100px;
+    margin-bottom: 1rem;
 }
 
-.div__footer ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #BBBBBB;
-    margin-bottom: 15px;
+.social-icons-container, .footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
-.div__footer {
-    display: inline-block;
-    text-align: left;
-    margin: 20px 20px;
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(./../img/imagenes-index/imagenes-footer/facebook.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover {
+    background-color: #121212;
+}
+
+.social-icon:nth-of-type(2) {
+    background-image: url(./../img/imagenes-index/imagenes-footer/instagram.png)
+}
+
+.social-icon:nth-of-type(3) {
+    background-image: url(./../img/imagenes-index/imagenes-footer/github.png)
+}
+
+.social-icon:nth-of-type(4) {
+    background-image: url(./../img/imagenes-index/imagenes-footer/contacto.png)
+}
+
+.footer-menu-container {
+    list-style: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
 }
 
 /*Ordenes*/
