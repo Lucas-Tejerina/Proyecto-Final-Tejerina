@@ -186,7 +186,7 @@ footer {
 
 .div__pj {
     display: inline-block;
-    width: 600px;
+    width: auto;
     vertical-align: top;
 }
 
@@ -335,22 +335,6 @@ hr {
     margin: 20px 10px;
 }
 
-@media (min-width: 360px) {
-    .div__pj {
-        width: auto;
-        max-width: 500px;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .div__pj {
-        width: auto;
-        max-width: 700px;
-        justify-content: center;
-    }
-}
-
 @media (min-width: 1024px) {
     .div__pj {
         width: auto;
@@ -361,15 +345,6 @@ hr {
     .div-pj { 
         display: flex;
     }
-}
-
-@media (min-width: 1280px) {
-    .div__pj {
-        width: auto;
-        max-width: 1100px;
-        justify-content: center;
-    }
-
 }
 
 @media(max-width: 760px) {
