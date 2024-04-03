@@ -317,9 +317,10 @@ button {
     display: grid;
     border: 2px solid rgb(117, 116, 116);
     gap: 10px;
-    background-image: url(./../img/imagenes-index/imagenes-region/bc\ grilla9.jpg);
+    background-image: url(./../img/imagenes-index/imagenes-region/bc\ grilla.jpg);
     background-position: center;
     background-size: cover;
+    margin: 30px 10px;
 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 0.1fr;
@@ -328,6 +329,10 @@ button {
     "trebol . pica"
     ". mapa ."
     "diamante . corazon";
+}
+
+.grilla a {
+    color: black;
 }
 
 .trebol {
