@@ -167,7 +167,7 @@ footer {
 /*Ordenes*/
 
 .card__container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 0;
     max-width: 1200px;
@@ -256,6 +256,41 @@ button {
 
 .card__ordenes:nth-child(9) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Leones\ Carmesi.jpg);
+}
+
+.card__lideres__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/imagenes-index/imagenes-ordenes/FondoLideres.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px 10px;
+    border-radius: 20px;
+}
+.card__lideres__title, .card__lideres__text {
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    text-align: center;
+}
+
+.card__lideres {
+    margin: 20px 0;
+}
+
+
+.card__lideres__img {
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 760px) {
+    .card__lideres__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /*Personajes*/
