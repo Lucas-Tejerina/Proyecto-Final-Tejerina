@@ -119,7 +119,7 @@ footer {
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(./../img/imagenes-index/imagenes-footer/facebook.png);
+    background-image: url(./../img/imagenes-index/imagenes-footer/whatsapp.png);
     background-position: center;
     background-size: 60%;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ footer {
 }
 
 .footer__icono:nth-of-type(4) {
-    background-image: url(./../img/imagenes-index/imagenes-footer/contacto.png)
+    background-image: url(./../img/imagenes-index/imagenes-footer/encuesta.png)
 }
 
 .footer__menu {
