@@ -174,7 +174,7 @@ footer {
     border-radius: 60px 60px 0 60px;
     background-size: cover;
     background-position: center;
-    box-shadow: 20px 20px 15px;
+    box-shadow: 20px 20px 20px;
 }
 
 .card__ordenes__content {
@@ -213,47 +213,38 @@ button {
 
 .card__ordenes:nth-child(1) {
     background-image: url(./../img/imagenes-index/imagenes-ordenes/Toros\ Negros.jpg);
-    color: #5b5b5c;
 }
 
 .card__ordenes:nth-child(2) {
     background-image: url(./../img/imagenes-index/imagenes-ordenes/Amanecer\ Dorado.jpg);
-    color: #94824e;
 }
 
 .card__ordenes:nth-child(3) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Aguilas\ Plateadas.jpg);
-    color: #628484;
 }
 
 .card__ordenes:nth-child(4) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Rosas\ Azules.jpg);
-    color: #73a8cd;
 }
 
 .card__ordenes:nth-child(5) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Mantis\ Verdes.jpg);
-    color: #9ac591;
 }
 
 .card__ordenes:nth-child(6) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Pavos\ Coral.jpg);
-    color: #b1718d;
 }
 
 .card__ordenes:nth-child(7) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Orcas\ Moradas.jpg);
-    color: #8d6fa7;
 }
 
 .card__ordenes:nth-child(8) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Ciervos\ Celestes.jpg);
-    color: #68a1ae;
 }
 
 .card__ordenes:nth-child(9) {
     background-image: url(../img/imagenes-index/imagenes-ordenes/Leones\ Carmesi.jpg);
-    color: #ab626f;
 }
 
 /*Personajes*/
