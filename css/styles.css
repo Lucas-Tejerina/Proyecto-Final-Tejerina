@@ -9,6 +9,7 @@
 body {
     text-align: center;
     background-image: url(./../img/imagenes-index/Fondo.jpg);
+    background-size: contain;
 }
 
 /*Header*/
