@@ -21,7 +21,7 @@ header {
 
 /* Main */
 
-section {
+.section__main {
     background-image: url(./../img/imagenes-index/fondo\ principal.png);
     width: 90%;
     padding: 20px;
