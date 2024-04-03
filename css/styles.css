@@ -283,8 +283,8 @@ button {
     width: 350px;
     height: 350px;
 }
-.card__lideres__content:nth-child(1) {
-    background-image: url(../img/imagenes-index/imagenes-ordenes/Toros\ Negros.jpg);
+.card__lideres__content:nth-of-type(1) {
+    background: linear-gradient(circle,  #292824 ,  #929484 );
 }
 
 @media (max-width: 760px) {
