@@ -296,32 +296,19 @@ button {
 
 /*Personajes*/
 
-.pj__div {
+.personajes__content {
     display: inline-block;
     width: auto;
     vertical-align: top;
 }
 
-.pj__img {
+.personajes__img {
     width: 200px;
     height: 200px;
     display: inline;
     border-top-right-radius: 30%;
     border-bottom-left-radius: 30%;
     margin: 30px 30px;
-}
-
-.carr__pj {
-    height: 400px;
-    border-radius: 50%;
-}
-
-.carousel {
-    background-image: url(./../img/imagenes-index/Fondo.jpg);
-    background-image: center;
-    background-size: cover;
-    border: solid 2px rgb(19, 0, 128);
-    margin: 40px 80px 0px 80px;
 }
 
 /*Region*/
@@ -445,13 +432,13 @@ hr {
 }
 
 @media (min-width: 1024px) {
-    .pj__div {
+    .personajes__content {
         width: auto;
         max-width: 900px;
         justify-content: center;
     }
 
-    .pj__container { 
+    .personajes__container { 
         display: flex;
     }
 }
