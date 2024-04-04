@@ -427,6 +427,34 @@ button {
     margin: 15px;;
 }
 
+.card__magia {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px double rgb(117, 116, 116);
+    background-image: url(../img/imagenes-index/imagenes-magia/tipos-de-magia/bc\ magia.jpg);
+    color: #ffffff;
+}
+
+.card__magia__img {
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card__magia__title {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
 /*Hr*/
 
 hr {
