@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: KodeMono;
+  src: url(./../assets/fonts/KodeMono-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+h1 {
+  font-size: 30px;
+  color: #2e2a2a;
+  margin: 0px 20px;
+  font-weight: 500px;
+  display: inline;
+  background-image: url(./../img/imagenes-index/Fondo\ titulo.jpg);
+}
+
+h2, h3, h4 {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #b500ec;
+  display: inline;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  margin: 4px 0;
+  padding: 2%;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, li {
+  font-family: Kodemono, sans-serif;
+}
+
+span {
+  color: #b500ec;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

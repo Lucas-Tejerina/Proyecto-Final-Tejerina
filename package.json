@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega-3",
+  "version": "1.0.0",
+  "description": "mi proyecto de desarrollo de pagina web para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Tejerina/PreEntrega3-Tejerina.git"
+  },
+  "author": "Lucas Tejerina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-Tejerina/PreEntrega3-Tejerina/issues"
+  },
+  "homepage": "https://github.com/Lucas-Tejerina/PreEntrega3-Tejerina#readme"
+}
