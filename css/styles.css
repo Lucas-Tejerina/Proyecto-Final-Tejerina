@@ -277,6 +277,7 @@ button {
     text-align: center;
     font-size: 18px;
 }
+
 .card__lideres__title {
     font-size: 20px;
 }
@@ -285,7 +286,6 @@ button {
     width: 350px;
     height: 350px;
 }
-
 
 @media (max-width: 760px) {
     .card__lideres__content {
@@ -373,7 +373,6 @@ button {
 .row-ord {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
 }
 
 .card-img-top {
@@ -386,7 +385,7 @@ button {
 
 .magia__section {
     width: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .magia__div {
@@ -402,7 +401,6 @@ button {
 .magia__img1 {
     height: 250px;
     width: 200px;
-    margin: 1% 1%;
     border-radius: 40px 40px 40px 40px;
 }
 
@@ -428,7 +426,6 @@ button {
 .magia__ul li {
     margin: 15px;;
 }
-
 
 /*Hr*/
 
