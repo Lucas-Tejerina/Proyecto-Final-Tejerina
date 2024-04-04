@@ -264,7 +264,7 @@ button {
     align-items: center;
     margin: 10px 10px;
     border-radius: 20px;
-    background-image: url(./../img/imagenes-index/imagenes-ordenes/grunge-certificate-with-vintage-ornamental-frame2.jpg);
+    background-image: url(./../img/imagenes-index/imagenes-ordenes/background\ lideres.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -388,7 +388,7 @@ button {
     margin: 40px auto;
 }
 
-.magia__div {
+.magia__container {
     width: 75%;
     margin: 10px auto;
     display: flex;
@@ -398,21 +398,21 @@ button {
     gap: 20px;
 }
 
-.magia__img1 {
+.magia__grimorios {
     height: 250px;
     width: 200px;
     border-radius: 40px 40px 40px 40px;
 }
 
-.magia__img2 {
+.magia__tipos {
     height: 250px;
     width: 250px;
     border-radius: 40px 40px 40px 40px;
 }
 
-.magia__img3 {
-    width: 800px;
-    height: 400px;
+.magia__espadas {
+    width: 600px;
+    height: 300px;
     border-radius: 40px;
 }
 
