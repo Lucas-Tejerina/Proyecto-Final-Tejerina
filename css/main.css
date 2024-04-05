@@ -132,6 +132,55 @@ body {
   background-image: url(./../img/imagenes-index/imagenes-footer/encuesta.png);
 }
 
+.grilla {
+  display: grid;
+  border: 2px solid rgb(117, 116, 116);
+  gap: 10px;
+  background-image: url(./../img/imagenes-index/imagenes-region/bc\ grilla.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 30px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-template-areas: "trebol . pica" ". mapa ." "diamante . corazon";
+}
+.grilla a.trebol {
+  grid-area: trebol;
+  border-bottom: none;
+  font-size: 25px;
+  color: #2e2a2a;
+}
+.grilla a.diamante {
+  grid-area: diamante;
+  border-bottom: none;
+  font-size: 25px;
+  color: #2e2a2a;
+}
+.grilla a.pica {
+  grid-area: pica;
+  border-bottom: none;
+  font-size: 25px;
+  color: #2e2a2a;
+}
+.grilla a.corazon {
+  grid-area: corazon;
+  border-bottom: none;
+  font-size: 25px;
+  color: #2e2a2a;
+}
+.grilla img.mapa {
+  grid-area: mapa;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 760px) {
+  .grilla {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-areas: "mapa" "trebol" "diamante" "pica" "corazon";
+  }
+}
 button {
   margin-top: 40px;
 }
@@ -334,7 +383,7 @@ button {
   border-radius: 50px 50px 0 0;
 }
 .enemigos__container .enemigos__card .enemigos__content .enemigos__title {
-  border-bottom: 3px solid magenta;
+  border-bottom: 3px solid #b500ec;
   display: inline;
   margin: 20px;
   color: #ffffff;
@@ -345,6 +394,20 @@ button {
   padding: 20px;
   text-align: center;
   font-size: 15px;
+}
+
+.region .row-ord {
+  display: flex;
+  justify-content: center;
+}
+.region .row-ord .region__art {
+  width: 300px;
+  height: 300px;
+}
+.region .row-ord .region__art .card-img-top {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
 }
 
 /*# sourceMappingURL=main.css.map */

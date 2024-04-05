@@ -28,7 +28,7 @@
                 background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.png);
                 background-position: center;
                 background-size: cover;
-                color: #ffffff;
+                color: $color-text-quaternary;
 
                 .enemigos__img {
                     width: 320px;
@@ -37,15 +37,15 @@
                 }
 
                 .enemigos__title {
-                    border-bottom: 3px solid magenta;
+                    border-bottom: 3px solid $color-border;
                     display: inline;
                     margin: 20px;
-                    color: #ffffff;
+                    color: $color-text-quaternary;
                     font-size: 23px;
                 }
 
                 .enemigos__text {
-                    color: #ffffff;
+                    color: $color-text-quaternary;
                     padding: 20px;
                     text-align: center;
                     font-size: 15px;

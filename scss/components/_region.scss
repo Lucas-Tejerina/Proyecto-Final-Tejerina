@@ -1,0 +1,18 @@
+.region {
+
+    .row-ord {
+        display: flex;
+        justify-content: center;
+
+        .region__art {
+            width: 300px;
+            height: 300px;
+
+            .card-img-top {
+                border-radius: 50%;
+                width: 220px;
+                height: 220px;
+            }
+        }
+    }
+}

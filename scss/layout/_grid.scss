@@ -1,0 +1,66 @@
+.grilla {
+
+    display: grid;
+    border: 2px solid rgb(117, 116, 116);
+    gap: 10px;
+    background-image: url(./../img/imagenes-index/imagenes-region/bc\ grilla.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px 10px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+
+    grid-template-areas: 
+    "trebol . pica"
+    ". mapa ."
+    "diamante . corazon";
+
+    a.trebol {
+        grid-area: trebol;
+        border-bottom: none;
+        font-size: 25px;
+        color: $color-text;
+    }
+
+    a.diamante {
+        grid-area: diamante;
+        border-bottom: none;
+        font-size: 25px;
+        color: $color-text;
+    }
+
+    a.pica {
+        grid-area: pica;
+        border-bottom: none;
+        font-size: 25px;
+        color: $color-text;
+    }
+
+    a.corazon {
+        grid-area: corazon;
+        border-bottom: none;
+        font-size: 25px;
+        color: $color-text;
+    }
+
+    img.mapa {
+        grid-area: mapa;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width: 760px) {
+    .grilla{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    
+        grid-template-areas: 
+        "mapa"
+        "trebol"
+        "diamante"
+        "pica"
+        "corazon";
+    }
+}
