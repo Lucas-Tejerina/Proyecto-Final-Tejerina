@@ -1,6 +1,6 @@
 .ordenes {
     
-    .ordenes__container {
+    &__container {
         width: 100%;
         margin: 0 auto;
         padding: 30px 0;
@@ -27,18 +27,18 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                background: rgba(0, 0, 0, 0.7);
+                background: $color-background-quaternary;
                 opacity: 0;
                 transition: 0.5s;
                 border-radius: 60px 60px 0 60px;
                 text-align: center;
 
                 .ordenes__title {
-                    color: rgba(255, 255, 255);
+                    color: $color-text-quaternary;
                 }
 
                 .ordenes__text  {
-                    color: rgba(255, 255, 255);
+                    color: $color-text-quaternary;
                     font-size: 16px;
                     padding: 10px auto;
                     font-weight: 40px;
@@ -47,42 +47,42 @@
             }
         }
     } 
-    .ordenes__card:nth-child(1) {
+    &__card:nth-child(1) {
         background-image: url(./../img/imagenes-index/imagenes-ordenes/Toros\ Negros.jpg);
     }
     
-    .ordenes__card:nth-child(2) {
+    &__card:nth-child(2) {
         background-image: url(./../img/imagenes-index/imagenes-ordenes/Amanecer\ Dorado.jpg);
     }
     
-    .ordenes__card:nth-child(3) {
+    &__card:nth-child(3) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Aguilas\ Plateadas.jpg);
     }
     
-    .ordenes__card:nth-child(4) {
+    &__card:nth-child(4) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Rosas\ Azules.jpg);
     }
     
-    .ordenes__card:nth-child(5) {
+    &__card:nth-child(5) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Mantis\ Verdes.jpg);
     }
     
-    .ordenes__card:nth-child(6) {
+    &__card:nth-child(6) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Pavos\ Coral.jpg);
     }
     
-    .ordenes__card:nth-child(7) {
+    &__card:nth-child(7) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Orcas\ Moradas.jpg);
     }
     
-    .ordenes__card:nth-child(8) {
+    &__card:nth-child(8) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Ciervos\ Celestes.jpg);
     }
     
-    .ordenes__card:nth-child(9) {
+    &__card:nth-child(9) {
         background-image: url(../img/imagenes-index/imagenes-ordenes/Leones\ Carmesi.jpg);
     }
-    .ordenes__card:hover .ordenes__content {
+    &__card:hover .ordenes__content {
         opacity: 1;
     }
 }
