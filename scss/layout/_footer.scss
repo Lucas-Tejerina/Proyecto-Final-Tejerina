@@ -1,0 +1,84 @@
+.footer {
+
+    &__container {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding: 2rem 8%;
+        background-color: #0e0e0e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__logo {
+        height: 70px;
+        margin-bottom: 1rem;
+    }
+    &__iconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+
+        .footer__icono {
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            border: 1px solid #f2f2f2;
+            background-image: url(./../img/imagenes-index/imagenes-footer/whatsapp.png);
+            background-position: center;
+            background-size: 60%;
+            background-repeat: no-repeat;
+            margin: 1rem;
+
+            &__icono:hover {
+                background-color: #121212;
+            }
+        }
+
+    }
+
+    &__menu {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        list-style: none;
+        color: #f2f2f2;
+        font-size: 18px;
+
+        .footer__li {
+            margin: 1rem 1.5rem;
+            cursor: pointer;
+            opacity: 0.6;
+
+            &__li:hover {
+                opacity: 1;
+            }
+        }
+
+    }
+
+    &__copyright {
+        color: #f2f2f2;
+        opacity: 0.3;
+        text-align: center;
+    }
+
+    &__icono:nth-of-type(2) {
+        background-image: url(./../img/imagenes-index/imagenes-footer/instagram.png)
+    }
+    
+    &__icono:nth-of-type(3) {
+        background-image: url(./../img/imagenes-index/imagenes-footer/github.png)
+    }
+    
+    &__icono:nth-of-type(4) {
+        background-image: url(./../img/imagenes-index/imagenes-footer/encuesta.png)
+    }
+}

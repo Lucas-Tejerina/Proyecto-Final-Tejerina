@@ -57,4 +57,142 @@ header {
   font-size: 20px;
 }
 
+body {
+  text-align: center;
+  background-image: url(./../img/imagenes-index/Fondo.jpg);
+  background-size: contain;
+}
+
+button {
+  margin-top: 40px;
+}
+
+.ratio {
+  max-width: 700px;
+}
+
+.rounded {
+  margin: 30px 0px;
+  height: 300px;
+  width: 300px;
+}
+
+.card__container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  flex-wrap: wrap;
+}
+
+.ordenes__card {
+  width: 300px;
+  height: 400px;
+  border-radius: 60px 60px 0 60px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 20px 20px 20px;
+}
+.ordenes__card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7019607843);
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 60px 60px 0 60px;
+  text-align: center;
+}
+.ordenes__card .ordenes__title {
+  color: #ffffff;
+}
+.ordenes__card .ordenes__text {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px auto;
+  font-weight: 40px;
+  margin-top: 20px;
+}
+
+.ordenes__card:hover .ordenes__content {
+  opacity: 1;
+}
+
+.footer__container {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__logo {
+  height: 70px;
+  margin-bottom: 1rem;
+}
+.footer__iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.footer__iconos .footer__icono {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  background-image: url(./../img/imagenes-index/imagenes-footer/whatsapp.png);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+.footer__iconos .footer__icono__icono:hover {
+  background-color: #121212;
+}
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  list-style: none;
+  color: #f2f2f2;
+  font-size: 18px;
+}
+.footer__menu .footer__li {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.footer__menu .footer__li__li:hover {
+  opacity: 1;
+}
+.footer__copyright {
+  color: #f2f2f2;
+  opacity: 0.3;
+  text-align: center;
+}
+.footer__icono:nth-of-type(2) {
+  background-image: url(./../img/imagenes-index/imagenes-footer/instagram.png);
+}
+.footer__icono:nth-of-type(3) {
+  background-image: url(./../img/imagenes-index/imagenes-footer/github.png);
+}
+.footer__icono:nth-of-type(4) {
+  background-image: url(./../img/imagenes-index/imagenes-footer/encuesta.png);
+}
+
 /*# sourceMappingURL=main.css.map */
