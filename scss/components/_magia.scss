@@ -1,0 +1,44 @@
+.magia {
+
+    &__section {
+        width: 100%;
+        margin: 40px auto;
+
+        .magia__container {
+            width: 75%;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .magia__grimorios {
+                height: 250px;
+                width: 200px;
+                border-radius: 40px 40px 40px 40px;
+                }
+
+            .magia__tipos {
+                height: 250px;
+                width: 250px;
+                border-radius: 40px 40px 40px 40px;
+                }
+
+            .magia__espadas {
+                width: 600px;
+                height: 300px;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+@media(max-width: 760px) {
+    .magia__espadas {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
