@@ -14,16 +14,15 @@
         border-bottom-left-radius: 30%;
         margin: 30px 30px;
     }
-}
-
-@media (min-width: 1024px) {
-    .personajes__content {
-        width: auto;
-        max-width: 900px;
-        justify-content: center;
-    }
-
-    .personajes__container { 
-        display: flex;
+    @media (min-width: 1024px) {
+        .personajes__content {
+            width: auto;
+            max-width: 900px;
+            justify-content: center;
+        }
+    
+        .personajes__container { 
+            display: flex;
+        }
     }
 }

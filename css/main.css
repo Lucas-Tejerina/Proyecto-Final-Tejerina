@@ -45,6 +45,94 @@ span {
   font-weight: 700;
 }
 
+.rounded {
+  margin: 30px 0px;
+  height: 300px;
+  width: 300px;
+}
+
+.ratio {
+  max-width: 700px;
+}
+
+.li__primary {
+  font-size: 20px;
+  list-style: none;
+}
+
+.magia__section {
+  width: 100%;
+  margin: 40px auto;
+}
+.magia__section .magia__container {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.magia__section .magia__container .magia__grimorios {
+  height: 250px;
+  width: 200px;
+  border-radius: 40px 40px 40px 40px;
+}
+.magia__section .magia__container .magia__tipos {
+  height: 250px;
+  width: 250px;
+  border-radius: 40px 40px 40px 40px;
+}
+.magia__section .magia__container .magia__espadas {
+  width: 600px;
+  height: 300px;
+  border-radius: 40px;
+}
+@media (max-width: 760px) {
+  .magia .magia__espadas {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.personajes__content {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+}
+.personajes__img {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  margin: 30px 30px;
+}
+@media (min-width: 1024px) {
+  .personajes .personajes__content {
+    width: auto;
+    max-width: 900px;
+    justify-content: center;
+  }
+  .personajes .personajes__container {
+    display: flex;
+  }
+}
+
+.region .row-ord {
+  display: flex;
+  justify-content: center;
+}
+.region .row-ord .region__art {
+  width: 300px;
+  height: 300px;
+}
+.region .row-ord .region__art .card-img-top {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
 .section__main {
   background-image: url(./../img/imagenes-index/fondo\ principal.png);
   width: 90%;
@@ -185,14 +273,107 @@ button {
   margin-top: 40px;
 }
 
-.ratio {
-  max-width: 700px;
+.li__primary {
+  font-size: 20px;
+  list-style: none;
 }
 
-.rounded {
-  margin: 30px 0px;
-  height: 300px;
-  width: 300px;
+.li__secondary {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.li__secondary li {
+  margin: 10px;
+}
+
+.card__primary .card__primary__container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  flex-wrap: wrap;
+  background: none;
+}
+.card__primary .card__primary__container .card__magia {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  border: 5px double rgb(117, 116, 116);
+  background-image: url(../img/imagenes-index/imagenes-magia/tipos-de-magia/bc\ magia.jpg);
+  color: #ffffff;
+}
+.card__primary .card__primary__container .card__magia .card__img {
+  height: 200px;
+  width: 200px;
+  border: 5px double black;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.card__primary .card__primary__container .card__title {
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+.enemigos__container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  flex-wrap: wrap;
+}
+.enemigos__container .enemigos__card {
+  width: 320px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.7);
+}
+.enemigos__container .enemigos__card .enemigos__content {
+  width: 320px;
+  height: auto;
+  text-align: center;
+  border-radius: 50px;
+  background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.png);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+.enemigos__container .enemigos__card .enemigos__content .enemigos__img {
+  width: 320px;
+  height: 200px;
+  border-radius: 50px 50px 0 0;
+}
+.enemigos__container .enemigos__card .enemigos__content .enemigos__title {
+  border-bottom: 3px solid #b500ec;
+  display: inline;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 23px;
+}
+.enemigos__container .enemigos__card .enemigos__content .enemigos__text {
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .ordenes__container {
@@ -269,21 +450,6 @@ button {
   opacity: 1;
 }
 
-.li__primary {
-  font-size: 20px;
-  list-style: none;
-}
-
-.li__secondary {
-  font-size: 20px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-.li__secondary li {
-  margin: 10px;
-}
-
 .lideres__container {
   width: 100%;
   margin: 0 auto;
@@ -326,172 +492,11 @@ button {
   text-align: center;
   font-size: 18px;
 }
-
 @media (max-width: 760px) {
-  .lideres__content {
+  .lideres .lideres__content {
     display: flex;
     flex-wrap: wrap;
   }
-}
-.personajes__content {
-  display: inline-block;
-  width: auto;
-  vertical-align: top;
-}
-.personajes__img {
-  width: 200px;
-  height: 200px;
-  display: inline;
-  border-top-right-radius: 30%;
-  border-bottom-left-radius: 30%;
-  margin: 30px 30px;
-}
-
-@media (min-width: 1024px) {
-  .personajes__content {
-    width: auto;
-    max-width: 900px;
-    justify-content: center;
-  }
-  .personajes__container {
-    display: flex;
-  }
-}
-.enemigos__container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 0;
-  max-width: 1200px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 2.5em;
-  flex-wrap: wrap;
-}
-.enemigos__container .enemigos__card {
-  width: 320px;
-  height: 550px;
-  display: flex;
-  justify-content: center;
-  border-radius: 50px;
-  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.7);
-}
-.enemigos__container .enemigos__card .enemigos__content {
-  width: 320px;
-  height: auto;
-  text-align: center;
-  border-radius: 50px;
-  background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.png);
-  background-position: center;
-  background-size: cover;
-  color: #ffffff;
-}
-.enemigos__container .enemigos__card .enemigos__content .enemigos__img {
-  width: 320px;
-  height: 200px;
-  border-radius: 50px 50px 0 0;
-}
-.enemigos__container .enemigos__card .enemigos__content .enemigos__title {
-  border-bottom: 3px solid #b500ec;
-  display: inline;
-  margin: 20px;
-  color: #ffffff;
-  font-size: 23px;
-}
-.enemigos__container .enemigos__card .enemigos__content .enemigos__text {
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  font-size: 15px;
-}
-
-.region .row-ord {
-  display: flex;
-  justify-content: center;
-}
-.region .row-ord .region__art {
-  width: 300px;
-  height: 300px;
-}
-.region .row-ord .region__art .card-img-top {
-  border-radius: 50%;
-  width: 220px;
-  height: 220px;
-}
-
-.magia__section {
-  width: 100%;
-  margin: 40px auto;
-}
-.magia__section .magia__container {
-  width: 75%;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.magia__section .magia__container .magia__grimorios {
-  height: 250px;
-  width: 200px;
-  border-radius: 40px 40px 40px 40px;
-}
-.magia__section .magia__container .magia__tipos {
-  height: 250px;
-  width: 250px;
-  border-radius: 40px 40px 40px 40px;
-}
-.magia__section .magia__container .magia__espadas {
-  width: 600px;
-  height: 300px;
-  border-radius: 40px;
-}
-
-@media (max-width: 760px) {
-  .magia__espadas {
-    height: 100px;
-    width: 100px;
-  }
-}
-.card__primary .card__primary__container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 0;
-  max-width: 1200px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 2.5em;
-  flex-wrap: wrap;
-  background: none;
-}
-.card__primary .card__primary__container .card__magia {
-  width: 250px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  padding: 20px;
-  border: 5px double rgb(117, 116, 116);
-  background-image: url(../img/imagenes-index/imagenes-magia/tipos-de-magia/bc\ magia.jpg);
-  color: #ffffff;
-}
-.card__primary .card__primary__container .card__magia .card__img {
-  height: 200px;
-  width: 200px;
-  border: 5px double black;
-  border-radius: 50%;
-  background-position: center;
-  background-size: cover;
-}
-.card__primary .card__primary__container .card__title {
-  padding: 20px 10px;
-  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
