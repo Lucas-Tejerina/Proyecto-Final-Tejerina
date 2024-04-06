@@ -1,6 +1,10 @@
 .li__primary {
     font-size: 20px;
     list-style: none;
+    border: 5px double $color-border-tertiary;
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
 }
 
 .li__secondary {

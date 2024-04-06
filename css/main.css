@@ -276,6 +276,10 @@ button {
 .li__primary {
   font-size: 20px;
   list-style: none;
+  border: 5px double #757474;
+  width: 500px;
+  max-width: 100%;
+  padding: 10px;
 }
 
 .li__secondary {
@@ -299,7 +303,6 @@ button {
   justify-content: space-evenly;
   gap: 2.5em;
   flex-wrap: wrap;
-  background: none;
 }
 .card__primary .card__primary__container .card__magia {
   width: 250px;
@@ -476,15 +479,13 @@ button {
   width: 350px;
   height: 350px;
 }
-.lideres__container .lideres__content .lideres__title {
+.lideres__container .lideres__content {
   font-size: 20px;
   max-width: 1200px;
   width: 90%;
   margin: 0px auto;
   height: auto;
   text-align: center;
-}
-.lideres__container .lideres__content .lideres__text {
   max-width: 1200px;
   width: 90%;
   margin: 0px auto;

@@ -1,0 +1,17 @@
+@mixin lideres-text{
+    max-width: $max-container-width;
+    width: 90%;
+    margin: 0px auto;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+@mixin lideres-title {
+    font-size: 20px;
+    max-width: $max-container-width;
+    width: 90%;
+    margin: 0px auto;
+    height: auto;
+    text-align: center;
+}
