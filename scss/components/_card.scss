@@ -187,6 +187,10 @@
     }
 }
 
+.toros {
+    @include ordenes__title (toros)
+}
+
 .lideres {
 
     &__container {

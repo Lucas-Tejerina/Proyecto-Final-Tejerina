@@ -15,3 +15,15 @@
     height: auto;
     text-align: center;
 }
+
+@mixin ordenes__title ($border) {
+    font-size: 25px;
+    color: $color-text;
+    margin-bottom: 10px;
+    display:inline;
+
+    @if $border == toros {
+        border-bottom: 2px solid #373740;
+    }
+}
+

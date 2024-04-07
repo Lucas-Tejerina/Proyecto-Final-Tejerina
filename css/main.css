@@ -15,7 +15,7 @@
 h1 {
   font-size: 30px;
   color: #2e2a2a;
-  margin: 0px 20px;
+  margin: 0;
   font-weight: 500px;
   display: inline;
   background-image: url(./../img/imagenes-index/Fondo\ titulo.jpg);
@@ -451,6 +451,14 @@ button {
 }
 .ordenes__card:hover .ordenes__content {
   opacity: 1;
+}
+
+.toros {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 2px solid #373740;
 }
 
 .lideres__container {
