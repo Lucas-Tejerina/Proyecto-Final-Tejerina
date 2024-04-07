@@ -23,7 +23,23 @@
     display:inline;
 
     @if $border == toros {
-        border-bottom: 2px solid #373740;
+        border-bottom: 2px solid $border-toros;
+    } @else if $border == amanecer {
+        border-bottom: 2px solid $border-amanecer;
+    } @else if $border == aguilas {
+        border-bottom: 2px solid $border-aguilas;
+    } @else if $border == rosas {
+        border-bottom: 2px solid $border-rosas;
+    } @else if $border == mantis {
+        border-bottom: 2px solid $border-mantis;
+    } @else if $border == pavos {
+        border-bottom: 2px solid $border-pavos;
+    } @else if $border == orcas {
+        border-bottom: 2px solid $border-orcas;
+    } @else if $border == ciervos {
+        border-bottom: 2px solid $border-ciervos;
+    } @else if $border == leones {
+        border-bottom: 2px solid $border-leones;
     }
 }
 

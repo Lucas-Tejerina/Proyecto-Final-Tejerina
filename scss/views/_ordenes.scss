@@ -1,0 +1,11 @@
+.toros {
+    @include ordenes__title (toros);
+}
+
+.amanecer {
+    @include ordenes__title (amanecer);
+}
+
+.aguilas {
+    @include ordenes__title (aguilas);
+}
