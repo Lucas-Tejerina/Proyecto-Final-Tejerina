@@ -138,7 +138,7 @@ span {
   color: #2e2a2a;
   margin-bottom: 10px;
   display: inline;
-  border-bottom: 2px solid #373740;
+  border-bottom: 3px solid #373740;
 }
 
 .amanecer {
@@ -146,7 +146,7 @@ span {
   color: #2e2a2a;
   margin-bottom: 10px;
   display: inline;
-  border-bottom: 2px solid #D9BB62;
+  border-bottom: 3px solid #D9BB62;
 }
 
 .aguilas {
@@ -154,7 +154,55 @@ span {
   color: #2e2a2a;
   margin-bottom: 10px;
   display: inline;
-  border-bottom: 2px solid #466B73;
+  border-bottom: 3px solid #466B73;
+}
+
+.rosas {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #50B4F2;
+}
+
+.mantis {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #95BF8A;
+}
+
+.pavos {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #D98FB1;
+}
+
+.orcas {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #71568C;
+}
+
+.ciervos {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #3A7D8C;
+}
+
+.leones {
+  font-size: 25px;
+  color: #2e2a2a;
+  margin-bottom: 10px;
+  display: inline;
+  border-bottom: 3px solid #8C3E62;
 }
 
 .section__main {

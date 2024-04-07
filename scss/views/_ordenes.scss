@@ -9,3 +9,27 @@
 .aguilas {
     @include ordenes__title (aguilas);
 }
+
+.rosas {
+    @include ordenes__title (rosas);
+}
+
+.mantis {
+    @include ordenes__title (mantis);
+}
+
+.pavos {
+    @include ordenes__title (pavos);
+}
+
+.orcas {
+    @include ordenes__title (orcas);
+}
+
+.ciervos {
+    @include ordenes__title (ciervos);
+}
+
+.leones {
+    @include ordenes__title (leones);
+}
