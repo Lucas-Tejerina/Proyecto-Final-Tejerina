@@ -428,7 +428,7 @@ button {
   height: auto;
   text-align: center;
   border-radius: 50px;
-  background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.png);
+  background-image: url(./../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.jpg);
   background-position: center;
   background-size: cover;
   color: #ffffff;
@@ -450,10 +450,6 @@ button {
   padding: 20px;
   text-align: center;
   font-size: 15px;
-}
-
-.enemigos__content {
-  background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.png);
 }
 
 .ordenes__container {
