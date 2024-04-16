@@ -571,6 +571,18 @@ button {
 .ordenes__card:hover .ordenes__content {
   opacity: 1;
 }
+@media (max-width: 360px) {
+  .ordenes .ordenes__card {
+    width: 250px;
+    height: 420px;
+  }
+  .ordenes .ordenes__title {
+    font-size: 18px;
+  }
+  .ordenes .ordenes__text {
+    font-size: 9px;
+  }
+}
 
 .lideres__container {
   width: 100%;
