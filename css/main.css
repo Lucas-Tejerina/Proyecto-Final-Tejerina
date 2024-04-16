@@ -62,6 +62,14 @@ span {
   list-style: none;
 }
 
+@media (max-width: 576px) {
+  h2, h3, h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
 .magia__section {
   width: 100%;
   margin: 40px auto;
