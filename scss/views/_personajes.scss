@@ -10,7 +10,8 @@
         "personajes__title personajes__img"
         "personajes__text personajes__img";
         width: 100%;
-        margin: 20px auto;
+        margin: 40px auto;
+        height: 300px;
 
         .personajes__text {
             grid-area: personajes__text;
@@ -30,12 +31,14 @@
         grid-template-columns: 0.3fr auto;
         grid-template-rows: 40px auto;
         gap: 0px 0px;
+        height: 300px;
         grid-auto-flow: row;
         grid-template-areas:
         "personajes__img personajes__title__left"
         "personajes__img personajes__text__left";
         width: 100%;
-        margin: 20px auto;
+        margin: 40px auto;
+        height: auto;
 
         .personajes__text__left {
             grid-area: personajes__text__left;
@@ -54,6 +57,7 @@
         width: 200px;
         height: 200px;
         display: inline;
+        margin: 0;
         border-top-right-radius: 30%;
         border-bottom-left-radius: 30%;
         margin: 30px 30px;
@@ -61,6 +65,7 @@
 
     @media (max-width: 1024px) {
         .personajes__container__right {
+            height: auto;
             grid-template-columns: 1fr;
             grid-template-rows: auto auto auto;
             grid-template-areas: 
@@ -70,6 +75,7 @@
         }
 
         .personajes__container__left {
+            height: auto;
             grid-template-columns: 1fr;
             grid-template-rows: auto auto auto;
             grid-template-areas: 
@@ -79,5 +85,9 @@
         }
     }
     
+}
+
+hr {
+    margin: 20px 10px;
 }
 
