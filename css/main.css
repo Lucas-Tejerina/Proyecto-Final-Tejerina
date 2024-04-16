@@ -116,6 +116,25 @@ span {
 .personajes__container__right .personajes__title {
   grid-area: personajes__title;
 }
+.personajes__container__left {
+  display: grid;
+  grid-template-columns: 0.3fr auto;
+  grid-template-rows: 40px auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "personajes__img personajes__title__left" "personajes__img personajes__text__left";
+  width: 100%;
+  margin: 20px auto;
+}
+.personajes__container__left .personajes__text__left {
+  grid-area: personajes__text__left;
+}
+.personajes__container__left .personajes__img {
+  grid-area: personajes__img;
+}
+.personajes__container__left .personajes__title__left {
+  grid-area: personajes__title__left;
+}
 .personajes__img {
   width: 200px;
   height: 200px;
@@ -129,6 +148,11 @@ span {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "personajes__title" "personajes__img" "personajes__text";
+  }
+  .personajes .personajes__container__left {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "personajes__title__left" "personajes__img" "personajes__text__left";
   }
 }
 
