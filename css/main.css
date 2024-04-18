@@ -18,7 +18,7 @@ h1 {
   margin: 0;
   font-weight: 500px;
   display: inline;
-  background-image: url(./../img/imagenes-index/Fondo\ titulo.jpg);
+  background-image: url(../../img/imagenes-index/bg-h1.webp);
 }
 
 h2, h3, h4 {
@@ -333,7 +333,7 @@ select {
 }
 
 .section__main {
-  background-image: url(./../img/imagenes-index/fondo\ principal.png);
+  background-image: url(../../img/imagenes-index/bg-principal.webp);
   width: 90%;
   padding: 20px;
   max-width: 1200px;
@@ -351,7 +351,7 @@ header {
 }
 body {
   text-align: center;
-  background-image: url(./../img/imagenes-index/Fondo.jpg);
+  background-image: url(../../img/imagenes-index/bg-body.webp);
   background-size: contain;
 }
 
@@ -484,7 +484,7 @@ button {
   width: 500px;
   max-width: 100%;
   padding: 10px;
-  background-image: url(./../../img/imagenes-index/bc\ li\ home.jpg);
+  background-image: url(./../../img/imagenes-index/bg-li-home.webp);
   background-size: cover;
   background-position: center;
   color: #f2f2f2;
