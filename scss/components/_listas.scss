@@ -16,8 +16,15 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    border: 6px inset $color-border-tertiary;
+    padding: 0;
+    background-image: url(../../img/imagenes-index/bg-li-home.webp);
+    background-size: cover;
+    background-position: center;
+    color: $color-text-tertiary;
+    max-width: 100%;
 
     li {
-        margin: 10px;;
+        margin: 10px auto;
     }
 }
