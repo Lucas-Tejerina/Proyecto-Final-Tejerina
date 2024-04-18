@@ -28,7 +28,7 @@
             width: 50px;
             border-radius: 50px;
             border: 1px solid $color-border-secondary;
-            background-image: url(./../img/imagenes-index/imagenes-footer/whatsapp.png);
+            background-image: url(../../img/imagenes-index/imagenes-footer/whatsapp.webp);
             background-position: center;
             background-size: 60%;
             background-repeat: no-repeat;
@@ -71,14 +71,14 @@
     }
 
     &__icono:nth-of-type(2) {
-        background-image: url(./../img/imagenes-index/imagenes-footer/instagram.png)
+        background-image: url(../../img/imagenes-index/imagenes-footer/instagram.webp)
     }
     
     &__icono:nth-of-type(3) {
-        background-image: url(./../img/imagenes-index/imagenes-footer/github.png)
+        background-image: url(../../img/imagenes-index/imagenes-footer/github.webp)
     }
     
     &__icono:nth-of-type(4) {
-        background-image: url(./../img/imagenes-index/imagenes-footer/encuesta.png)
+        background-image: url(../../img/imagenes-index/imagenes-footer/encuesta.webp)
     }
 }
