@@ -1,8 +1,11 @@
 form {
+    background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.webp);
     max-width: 500px;
     min-width: 300px;
     margin: 20px auto;
     padding-bottom: 2em;
+    background-size: cover;
+    background-position: center;
 }
 
 label {display: block;
@@ -23,12 +26,11 @@ input {margin: 15px auto;
 textarea {background-color: #1b1b32;
     color: white;
     margin: 10px 0 0 0;
-    width: 100%;
+    width: 90%;
     min-height: 2em;
 }
 
 input[type="submit"] {
-    display: block;
     width: 30%;
     margin: 1em auto;
     height: 2em;
@@ -36,24 +38,18 @@ input[type="submit"] {
     background-color: #3b3b4f;
     border-color: white;
     color: white;
-    min-width: 300px;
-}
-
-select {
-    width: 70%;
-    height: 2em;
+    min-width: 200px;
 }
 
 .form__container {
         margin: 40px auto;
         max-width: 700px;
-        width: 100%;
         height: auto;
         background-image: url(../../img/imagenes-index/imagenes-personajes/enemigos-principales/bc_enemigo.jpg);
         background-size: cover;
         background-position: center;
         border-radius: 20px;
-        color: white;
+        color: $color-text-tertiary;
         font-size: 15px;
 }
 
