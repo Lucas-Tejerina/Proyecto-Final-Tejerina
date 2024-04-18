@@ -1,4 +1,5 @@
 * {
+  border: 2px solid green;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -118,7 +119,6 @@ span {
   grid-auto-flow: row;
   grid-template-areas: "personajes__title personajes__img" "personajes__text personajes__img";
   width: 100%;
-  margin: 40px auto;
   height: 300px;
 }
 .personajes__container__right .personajes__text {
@@ -139,8 +139,7 @@ span {
   grid-auto-flow: row;
   grid-template-areas: "personajes__img personajes__title__left" "personajes__img personajes__text__left";
   width: 100%;
-  margin: 40px auto;
-  height: auto;
+  height: 300px;
 }
 .personajes__container__left .personajes__text__left {
   grid-area: personajes__text__left;
@@ -552,16 +551,21 @@ button {
   justify-content: space-evenly;
   gap: 2.5em;
   flex-wrap: wrap;
+  border: 2px solid blue;
 }
 .enemigos__container .enemigos__card {
+  max-width: 100%;
   width: 320px;
-  height: 550px;
+  max-height: 100%;
+  height: 610px;
   display: flex;
   justify-content: center;
   border-radius: 50px;
   box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.7);
 }
 .enemigos__container .enemigos__card .enemigos__content {
+  max-height: 100%;
+  max-width: 100%;
   width: 320px;
   height: auto;
   text-align: center;
@@ -572,6 +576,7 @@ button {
   color: #ffffff;
 }
 .enemigos__container .enemigos__card .enemigos__content .enemigos__img {
+  max-width: 100%;
   width: 320px;
   height: 200px;
   border-radius: 50px 50px 0 0;
@@ -585,15 +590,8 @@ button {
 }
 .enemigos__container .enemigos__card .enemigos__content .enemigos__text {
   color: #ffffff;
-  padding: 20px;
   text-align: center;
   font-size: 15px;
-}
-@media (max-width: 440px) {
-  .enemigos .enemigos__card {
-    width: 200px;
-    box-shadow: 0 30px 30px;
-  }
 }
 
 .ordenes__container {

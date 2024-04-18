@@ -10,11 +10,11 @@
         "personajes__title personajes__img"
         "personajes__text personajes__img";
         width: 100%;
-        margin: 40px auto;
         height: 300px;
 
         .personajes__text {
             grid-area: personajes__text;
+
         }
 
         .personajes__img {
@@ -37,8 +37,7 @@
         "personajes__img personajes__title__left"
         "personajes__img personajes__text__left";
         width: 100%;
-        margin: 40px auto;
-        height: auto;
+        height: 300px;
 
         .personajes__text__left {
             grid-area: personajes__text__left;
