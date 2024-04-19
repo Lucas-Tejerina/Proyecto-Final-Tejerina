@@ -1,5 +1,4 @@
 * {
-  border: 2px solid green;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -119,7 +118,7 @@ span {
   grid-auto-flow: row;
   grid-template-areas: "personajes__title personajes__img" "personajes__text personajes__img";
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 .personajes__container__right .personajes__text {
   grid-area: personajes__text;
@@ -135,11 +134,10 @@ span {
   grid-template-columns: 0.3fr auto;
   grid-template-rows: 40px auto;
   gap: 0px 0px;
-  height: 300px;
   grid-auto-flow: row;
   grid-template-areas: "personajes__img personajes__title__left" "personajes__img personajes__text__left";
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 .personajes__container__left .personajes__text__left {
   grid-area: personajes__text__left;
@@ -153,13 +151,12 @@ span {
 .personajes__img {
   width: 200px;
   height: 200px;
-  display: inline;
   margin: 0;
   border-top-right-radius: 30%;
   border-bottom-left-radius: 30%;
   margin: 30px 30px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .personajes .personajes__container__right {
     height: auto;
     grid-template-columns: 1fr;
@@ -551,7 +548,6 @@ button {
   justify-content: space-evenly;
   gap: 2.5em;
   flex-wrap: wrap;
-  border: 2px solid blue;
 }
 .enemigos__container .enemigos__card {
   max-width: 100%;
