@@ -158,12 +158,14 @@ span {
 }
 @media (max-width: 1200px) {
   .personajes .personajes__container__right {
+    overflow: hidden;
     height: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "personajes__title" "personajes__img" "personajes__text";
   }
   .personajes .personajes__container__left {
+    overflow: hidden;
     height: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
